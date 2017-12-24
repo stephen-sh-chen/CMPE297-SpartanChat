@@ -1,0 +1,1320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C015E351FDB854300E5BF27 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C015E341FDB854300E5BF27 /* MapView.swift */; };
+		5C3D5F0C1FCB6D96002596DE /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D5F0B1FCB6D96002596DE /* AuthProvider.swift */; };
+		5C3D5F0E1FCB9F29002596DE /* MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D5F0D1FCB9F29002596DE /* MessageHandler.swift */; };
+		5C519EB11FCE7497003265AC /* mine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C519EB01FCE7497003265AC /* mine.m */; };
+		5C89E5341FC2886B00E7CC84 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89E5331FC2886B00E7CC84 /* RadioButton.swift */; };
+		5C89E5361FC2895500E7CC84 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89E5351FC2895500E7CC84 /* ProfileViewController.swift */; };
+		5CD063E61FBA3A8A0046851C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD063E51FBA3A8A0046851C /* AppDelegate.swift */; };
+		5CD063E81FBA3A8A0046851C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD063E71FBA3A8A0046851C /* ViewController.swift */; };
+		5CD063EB1FBA3A8A0046851C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD063E91FBA3A8A0046851C /* Main.storyboard */; };
+		5CD063EE1FBA3A8A0046851C /* AskMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CD063EC1FBA3A8A0046851C /* AskMe.xcdatamodeld */; };
+		5CD063F01FBA3A8A0046851C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD063EF1FBA3A8A0046851C /* Assets.xcassets */; };
+		5CD063F31FBA3A8A0046851C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD063F11FBA3A8A0046851C /* LaunchScreen.storyboard */; };
+		5CD064011FBA3C4C0046851C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD064001FBA3C4C0046851C /* Constant.swift */; };
+		5CD064031FBA3C730046851C /* CustomedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD064021FBA3C730046851C /* CustomedView.swift */; };
+		5CD064051FBA3C9E0046851C /* CustomedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD064041FBA3C9E0046851C /* CustomedButton.swift */; };
+		5CD064091FBAAD0F0046851C /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD064081FBAAD0F0046851C /* Searching.swift */; };
+		5CDAECDD1FC7F82700DE3753 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAECDC1FC7F82700DE3753 /* GoogleService-Info.plist */; };
+		5CDAECDF1FC7FE7300DE3753 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAECDE1FC7FE7300DE3753 /* Login.swift */; };
+		5CDAECE11FC8117B00DE3753 /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAECE01FC8117B00DE3753 /* DBProvider.swift */; };
+		5CDAECE51FC817ED00DE3753 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAECE41FC817ED00DE3753 /* Profile.swift */; };
+		5CDAECE71FC8A8F500DE3753 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAECE61FC8A8F500DE3753 /* ProfileCell.swift */; };
+		5CDAECE91FC8AD6A00DE3753 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAECE81FC8AD6A00DE3753 /* Chat.swift */; };
+		5CDE4C8A1FCF9E76001B6B22 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE4C891FCF9E76001B6B22 /* IntentHandler.swift */; };
+		5CDE4C921FCF9E76001B6B22 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDE4C911FCF9E76001B6B22 /* IntentsUI.framework */; };
+		5CDE4C951FCF9E76001B6B22 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE4C941FCF9E76001B6B22 /* IntentViewController.swift */; };
+		5CDE4C981FCF9E76001B6B22 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDE4C961FCF9E76001B6B22 /* MainInterface.storyboard */; };
+		5CDE4C9C1FCF9E76001B6B22 /* AskMeChatIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5CDE4C901FCF9E76001B6B22 /* AskMeChatIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5CDE4C9F1FCF9E76001B6B22 /* AskMeChatIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5CDE4C871FCF9E76001B6B22 /* AskMeChatIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5CDE4CB81FD6289B001B6B22 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE4CB71FD6289B001B6B22 /* Map.swift */; };
+		5CDE4CBB1FD62D92001B6B22 /* ProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE4CBA1FD62D92001B6B22 /* ProfileDetail.swift */; };
+		71C2837C74B8F1CED8688EF9 /* Pods_AskMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68471516D1DF5D968DC15F6 /* Pods_AskMe.framework */; };
+		DC00D4081FD7D04E00E20043 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D4071FD7D04D00E20043 /* VideoToolbox.framework */; };
+		DC00D40A1FD7D06700E20043 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D4091FD7D06700E20043 /* AudioToolbox.framework */; };
+		DC00D40C1FD7D08E00E20043 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D40B1FD7D08E00E20043 /* CoreGraphics.framework */; };
+		DC00D40E1FD7D09900E20043 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D40D1FD7D09900E20043 /* CoreImage.framework */; };
+		DC00D4101FD7D0D900E20043 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D40F1FD7D0D900E20043 /* CoreVideo.framework */; };
+		DC00D4121FD7D0E900E20043 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D4111FD7D0E900E20043 /* GLKit.framework */; };
+		DC00D4141FD7D0F200E20043 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D4131FD7D0F200E20043 /* AVFoundation.framework */; };
+		DC00D44A1FD7D34300E20043 /* ARDWebSocketChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D41C1FD7D33E00E20043 /* ARDWebSocketChannel.m */; };
+		DC00D44B1FD7D34300E20043 /* RTCICECandidate+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D41D1FD7D33E00E20043 /* RTCICECandidate+JSON.m */; };
+		DC00D44E1FD7D34300E20043 /* RTCICEServer+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D4231FD7D33E00E20043 /* RTCICEServer+JSON.m */; };
+		DC00D44F1FD7D34300E20043 /* ARDSignalingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D4251FD7D33E00E20043 /* ARDSignalingMessage.m */; };
+		DC00D4501FD7D34300E20043 /* ARDAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D4261FD7D33F00E20043 /* ARDAppClient.m */; };
+		DC00D4511FD7D34300E20043 /* ARDTURNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D4271FD7D33F00E20043 /* ARDTURNClient.m */; };
+		DC00D4551FD7D34300E20043 /* ARDSettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D42D1FD7D33F00E20043 /* ARDSettingsModel.m */; };
+		DC00D45D1FD7D34300E20043 /* ARDJoinResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D4451FD7D34200E20043 /* ARDJoinResponse.m */; };
+		DC00D4601FD7D62600E20043 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D45F1FD7D62600E20043 /* WebRTC.framework */; };
+		DC00D4661FD7E4D200E20043 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC00D4651FD7E4D100E20043 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC3EDE381FDB2A19005B5FCE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE0B1FDB2A18005B5FCE /* LICENSE */; };
+		DC3EDE391FDB2A19005B5FCE /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE0D1FDB2A18005B5FCE /* SRWebSocket.m */; };
+		DC3EDE3A1FDB2A19005B5FCE /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3EDE111FDB2A19005B5FCE /* WebRTC.framework */; };
+		DC3EDE3B1FDB2A19005B5FCE /* ARDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE151FDB2A19005B5FCE /* ARDAppDelegate.m */; };
+		DC3EDE3C1FDB2A19005B5FCE /* ARDMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE171FDB2A19005B5FCE /* ARDMainView.m */; };
+		DC3EDE3D1FDB2A19005B5FCE /* ARDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE191FDB2A19005B5FCE /* ARDMainViewController.m */; };
+		DC3EDE3E1FDB2A19005B5FCE /* ARDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE1B1FDB2A19005B5FCE /* ARDSettingsViewController.m */; };
+		DC3EDE3F1FDB2A19005B5FCE /* ARDStatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE1D1FDB2A19005B5FCE /* ARDStatsView.m */; };
+		DC3EDE401FDB2A19005B5FCE /* ARDVideoCallView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE1F1FDB2A19005B5FCE /* ARDVideoCallView.m */; };
+		DC3EDE411FDB2A19005B5FCE /* ARDVideoCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE211FDB2A19005B5FCE /* ARDVideoCallViewController.m */; };
+		DC3EDE421FDB2A19005B5FCE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE221FDB2A19005B5FCE /* Info.plist */; };
+		DC3EDE431FDB2A19005B5FCE /* ic_call_end_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE241FDB2A19005B5FCE /* ic_call_end_black_24dp.png */; };
+		DC3EDE441FDB2A19005B5FCE /* ic_call_end_black_24dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE251FDB2A19005B5FCE /* ic_call_end_black_24dp@2x.png */; };
+		DC3EDE451FDB2A19005B5FCE /* ic_clear_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE261FDB2A19005B5FCE /* ic_clear_black_24dp.png */; };
+		DC3EDE461FDB2A19005B5FCE /* ic_clear_black_24dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE271FDB2A19005B5FCE /* ic_clear_black_24dp@2x.png */; };
+		DC3EDE471FDB2A19005B5FCE /* ic_settings_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE281FDB2A19005B5FCE /* ic_settings_black_24dp.png */; };
+		DC3EDE481FDB2A19005B5FCE /* ic_settings_black_24dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE291FDB2A19005B5FCE /* ic_settings_black_24dp@2x.png */; };
+		DC3EDE491FDB2A19005B5FCE /* ic_surround_sound_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE2A1FDB2A19005B5FCE /* ic_surround_sound_black_24dp.png */; };
+		DC3EDE4A1FDB2A19005B5FCE /* ic_surround_sound_black_24dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE2B1FDB2A19005B5FCE /* ic_surround_sound_black_24dp@2x.png */; };
+		DC3EDE4B1FDB2A19005B5FCE /* ic_switch_video_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE2C1FDB2A19005B5FCE /* ic_switch_video_black_24dp.png */; };
+		DC3EDE4C1FDB2A19005B5FCE /* ic_switch_video_black_24dp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE2D1FDB2A19005B5FCE /* ic_switch_video_black_24dp@2x.png */; };
+		DC3EDE4D1FDB2A19005B5FCE /* iPhone5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE2E1FDB2A19005B5FCE /* iPhone5@2x.png */; };
+		DC3EDE4E1FDB2A19005B5FCE /* iPhone6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE2F1FDB2A19005B5FCE /* iPhone6@2x.png */; };
+		DC3EDE4F1FDB2A19005B5FCE /* iPhone6p@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE301FDB2A19005B5FCE /* iPhone6p@3x.png */; };
+		DC3EDE501FDB2A19005B5FCE /* mozart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE311FDB2A19005B5FCE /* mozart.mp3 */; };
+		DC3EDE511FDB2A19005B5FCE /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE321FDB2A19005B5FCE /* Roboto-Regular.ttf */; };
+		DC3EDE521FDB2A19005B5FCE /* UIImage+ARDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE341FDB2A19005B5FCE /* UIImage+ARDUtilities.m */; };
+		DC3EDE531FDB2A19005B5FCE /* ARDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE371FDB2A19005B5FCE /* ARDUtilities.m */; };
+		DC3EDE541FDB2B5B005B5FCE /* ARDSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D43E1FD7D34100E20043 /* ARDSettingsStore.m */; };
+		DC3EDE551FDB2B9E005B5FCE /* ARDBitrateTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D4211FD7D33E00E20043 /* ARDBitrateTracker.m */; };
+		DC3EDE561FDB2BC9005B5FCE /* ARDSDPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D42B1FD7D33F00E20043 /* ARDSDPUtils.m */; };
+		DC3EDE591FDB2C0C005B5FCE /* ARDCaptureController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D4401FD7D34200E20043 /* ARDCaptureController.m */; };
+		DC3EDE5A1FDB2C34005B5FCE /* RTCSessionDescription+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D41B1FD7D33E00E20043 /* RTCSessionDescription+JSON.m */; };
+		DC3EDE5B1FDB2C4F005B5FCE /* ARDRegisterResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D4351FD7D34000E20043 /* ARDRegisterResponse.m */; };
+		DC3EDE5C1FDB2C7D005B5FCE /* ARDAppEngineClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D42C1FD7D33F00E20043 /* ARDAppEngineClient.m */; };
+		DC3EDE5D1FDB2CA6005B5FCE /* ARDStatsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D4421FD7D34200E20043 /* ARDStatsBuilder.m */; };
+		DC3EDE5E1FDB2CB4005B5FCE /* ARDMessageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D41F1FD7D33E00E20043 /* ARDMessageResponse.m */; };
+		DC3EDE5F1FDB2CFF005B5FCE /* RTCMediaConstraints+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00D43C1FD7D34100E20043 /* RTCMediaConstraints+JSON.m */; };
+		DC3EDE611FDB4334005B5FCE /* RTCRoomTextInputViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE601FDB4334005B5FCE /* RTCRoomTextInputViewCell.swift */; };
+		DC3EDE641FDB4345005B5FCE /* RTCVideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE621FDB4344005B5FCE /* RTCVideoChatViewController.swift */; };
+		DC3EDE651FDB4345005B5FCE /* RTCRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3EDE631FDB4345005B5FCE /* RTCRoomViewController.swift */; };
+		DC3EDE671FDB4717005B5FCE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DC3EDE661FDB4716005B5FCE /* Podfile */; };
+		DCC626691FDB695600D3A614 /* TreeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC626641FDB695500D3A614 /* TreeAnnotation.swift */; };
+		DCC6266A1FDB695600D3A614 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC626651FDB695500D3A614 /* CSV.swift */; };
+		DCC6266B1FDB695600D3A614 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC626661FDB695600D3A614 /* Tree.swift */; };
+		DCC6266C1FDB695600D3A614 /* PardeTreesFromCSVFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC626671FDB695600D3A614 /* PardeTreesFromCSVFile.swift */; };
+		DCC6266D1FDB695600D3A614 /* UserProfileAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC626681FDB695600D3A614 /* UserProfileAnnotation.swift */; };
+		DCC6266F1FDB697100D3A614 /* Trees.csv in Resources */ = {isa = PBXBuildFile; fileRef = DCC6266E1FDB697100D3A614 /* Trees.csv */; };
+		DCD5780C1FDB1E91006E1BFE /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD5780B1FDB1E91006E1BFE /* libc++.1.dylib */; };
+		DCD5780E1FDB1F33006E1BFE /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD5780D1FDB1F33006E1BFE /* libicucore.A.dylib */; };
+		DCD578101FDB1F76006E1BFE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD5780F1FDB1F76006E1BFE /* libsqlite3.dylib */; };
+		DCD578121FDB1FB8006E1BFE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD578111FDB1FB8006E1BFE /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CDE4C9A1FCF9E76001B6B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CD063DA1FBA3A8A0046851C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDE4C8F1FCF9E76001B6B22;
+			remoteInfo = AskMeChatIntentUI;
+		};
+		5CDE4C9D1FCF9E76001B6B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CD063DA1FBA3A8A0046851C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDE4C861FCF9E76001B6B22;
+			remoteInfo = AskMeChatIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CDAEC4E1FC5FDAB00DE3753 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DC00D4661FD7E4D200E20043 /* WebRTC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDE4CA61FCF9E76001B6B22 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5CDE4C9F1FCF9E76001B6B22 /* AskMeChatIntent.appex in Embed App Extensions */,
+				5CDE4C9C1FCF9E76001B6B22 /* AskMeChatIntentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C015E341FDB854300E5BF27 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5C3D5F0B1FCB6D96002596DE /* AuthProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		5C3D5F0D1FCB9F29002596DE /* MessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHandler.swift; sourceTree = "<group>"; };
+		5C519EAF1FCE7496003265AC /* AskMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AskMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C519EB01FCE7497003265AC /* mine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mine.m; sourceTree = "<group>"; };
+		5C519EB21FCE757E003265AC /* AskMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AskMe.entitlements; sourceTree = "<group>"; };
+		5C89E5331FC2886B00E7CC84 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		5C89E5351FC2895500E7CC84 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5CD063E21FBA3A8A0046851C /* AskMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD063E51FBA3A8A0046851C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CD063E71FBA3A8A0046851C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CD063EA1FBA3A8A0046851C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CD063ED1FBA3A8A0046851C /* AskMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AskMe.xcdatamodel; sourceTree = "<group>"; };
+		5CD063EF1FBA3A8A0046851C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CD063F21FBA3A8A0046851C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CD063F41FBA3A8A0046851C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD064001FBA3C4C0046851C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5CD064021FBA3C730046851C /* CustomedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomedView.swift; sourceTree = "<group>"; };
+		5CD064041FBA3C9E0046851C /* CustomedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomedButton.swift; sourceTree = "<group>"; };
+		5CD064081FBAAD0F0046851C /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
+		5CDAECDC1FC7F82700DE3753 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CDAECDE1FC7FE7300DE3753 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		5CDAECE01FC8117B00DE3753 /* DBProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		5CDAECE41FC817ED00DE3753 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5CDAECE61FC8A8F500DE3753 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		5CDAECE81FC8AD6A00DE3753 /* Chat.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		5CDE4C871FCF9E76001B6B22 /* AskMeChatIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AskMeChatIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDE4C891FCF9E76001B6B22 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		5CDE4C8B1FCF9E76001B6B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDE4C901FCF9E76001B6B22 /* AskMeChatIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AskMeChatIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDE4C911FCF9E76001B6B22 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		5CDE4C941FCF9E76001B6B22 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		5CDE4C971FCF9E76001B6B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		5CDE4C991FCF9E76001B6B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDE4CB71FD6289B001B6B22 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		5CDE4CBA1FD62D92001B6B22 /* ProfileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetail.swift; sourceTree = "<group>"; };
+		B55864B17B74DFCC41BA350D /* Pods-AskMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AskMe/Pods-AskMe.debug.xcconfig"; sourceTree = "<group>"; };
+		B68471516D1DF5D968DC15F6 /* Pods_AskMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE34337AAD26D6605810AEB /* Pods-AskMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-AskMe/Pods-AskMe.release.xcconfig"; sourceTree = "<group>"; };
+		DC00D4071FD7D04D00E20043 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		DC00D4091FD7D06700E20043 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DC00D40B1FD7D08E00E20043 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC00D40D1FD7D09900E20043 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		DC00D40F1FD7D0D900E20043 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DC00D4111FD7D0E900E20043 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		DC00D4131FD7D0F200E20043 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC00D4191FD7D33E00E20043 /* ARDSettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDSettingsStore.h; sourceTree = "<group>"; };
+		DC00D41A1FD7D33E00E20043 /* ARDSignalingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDSignalingMessage.h; sourceTree = "<group>"; };
+		DC00D41B1FD7D33E00E20043 /* RTCSessionDescription+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCSessionDescription+JSON.m"; sourceTree = "<group>"; };
+		DC00D41C1FD7D33E00E20043 /* ARDWebSocketChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDWebSocketChannel.m; sourceTree = "<group>"; };
+		DC00D41D1FD7D33E00E20043 /* RTCICECandidate+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCICECandidate+JSON.m"; sourceTree = "<group>"; };
+		DC00D41E1FD7D33E00E20043 /* ARDMessageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDMessageResponse.h; sourceTree = "<group>"; };
+		DC00D41F1FD7D33E00E20043 /* ARDMessageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDMessageResponse.m; sourceTree = "<group>"; };
+		DC00D4201FD7D33E00E20043 /* ARDBitrateTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDBitrateTracker.h; sourceTree = "<group>"; };
+		DC00D4211FD7D33E00E20043 /* ARDBitrateTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDBitrateTracker.m; sourceTree = "<group>"; };
+		DC00D4221FD7D33E00E20043 /* ARDJoinResponse+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARDJoinResponse+Internal.h"; sourceTree = "<group>"; };
+		DC00D4231FD7D33E00E20043 /* RTCICEServer+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCICEServer+JSON.m"; sourceTree = "<group>"; };
+		DC00D4241FD7D33E00E20043 /* RTCMediaConstraints+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCMediaConstraints+JSON.h"; sourceTree = "<group>"; };
+		DC00D4251FD7D33E00E20043 /* ARDSignalingMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDSignalingMessage.m; sourceTree = "<group>"; };
+		DC00D4261FD7D33F00E20043 /* ARDAppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDAppClient.m; sourceTree = "<group>"; };
+		DC00D4271FD7D33F00E20043 /* ARDTURNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDTURNClient.m; sourceTree = "<group>"; };
+		DC00D4281FD7D33F00E20043 /* ARDSettingsModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARDSettingsModel+Private.h"; sourceTree = "<group>"; };
+		DC00D4291FD7D33F00E20043 /* ARDRegisterResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDRegisterResponse.h; sourceTree = "<group>"; };
+		DC00D42B1FD7D33F00E20043 /* ARDSDPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDSDPUtils.m; sourceTree = "<group>"; };
+		DC00D42C1FD7D33F00E20043 /* ARDAppEngineClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDAppEngineClient.m; sourceTree = "<group>"; };
+		DC00D42D1FD7D33F00E20043 /* ARDSettingsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDSettingsModel.m; sourceTree = "<group>"; };
+		DC00D42E1FD7D33F00E20043 /* ARDSettingsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDSettingsModel.h; sourceTree = "<group>"; };
+		DC00D42F1FD7D33F00E20043 /* ARDAppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDAppClient.h; sourceTree = "<group>"; };
+		DC00D4301FD7D33F00E20043 /* ARDStatsBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDStatsBuilder.h; sourceTree = "<group>"; };
+		DC00D4311FD7D34000E20043 /* ARDTURNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDTURNClient.h; sourceTree = "<group>"; };
+		DC00D4341FD7D34000E20043 /* ARDJoinResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDJoinResponse.h; sourceTree = "<group>"; };
+		DC00D4351FD7D34000E20043 /* ARDRegisterResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDRegisterResponse.m; sourceTree = "<group>"; };
+		DC00D4361FD7D34000E20043 /* ARDCaptureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDCaptureController.h; sourceTree = "<group>"; };
+		DC00D4371FD7D34000E20043 /* ARDAppClient+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARDAppClient+Internal.h"; sourceTree = "<group>"; };
+		DC00D4381FD7D34000E20043 /* ARDMessageResponse+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARDMessageResponse+Internal.h"; sourceTree = "<group>"; };
+		DC00D4391FD7D34100E20043 /* ARDSignalingChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDSignalingChannel.h; sourceTree = "<group>"; };
+		DC00D43A1FD7D34100E20043 /* RTCICECandidate+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCICECandidate+JSON.h"; sourceTree = "<group>"; };
+		DC00D43B1FD7D34100E20043 /* RTCICEServer+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCICEServer+JSON.h"; sourceTree = "<group>"; };
+		DC00D43C1FD7D34100E20043 /* RTCMediaConstraints+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCMediaConstraints+JSON.m"; sourceTree = "<group>"; };
+		DC00D43D1FD7D34100E20043 /* ARDRoomServerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDRoomServerClient.h; sourceTree = "<group>"; };
+		DC00D43E1FD7D34100E20043 /* ARDSettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDSettingsStore.m; sourceTree = "<group>"; };
+		DC00D43F1FD7D34100E20043 /* ARDAppEngineClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDAppEngineClient.h; sourceTree = "<group>"; };
+		DC00D4401FD7D34200E20043 /* ARDCaptureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDCaptureController.m; sourceTree = "<group>"; };
+		DC00D4411FD7D34200E20043 /* ARDTURNClient+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARDTURNClient+Internal.h"; sourceTree = "<group>"; };
+		DC00D4421FD7D34200E20043 /* ARDStatsBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDStatsBuilder.m; sourceTree = "<group>"; };
+		DC00D4431FD7D34200E20043 /* ARDWebSocketChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDWebSocketChannel.h; sourceTree = "<group>"; };
+		DC00D4441FD7D34200E20043 /* RTCSessionDescription+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCSessionDescription+JSON.h"; sourceTree = "<group>"; };
+		DC00D4451FD7D34200E20043 /* ARDJoinResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDJoinResponse.m; sourceTree = "<group>"; };
+		DC00D4471FD7D34300E20043 /* ARDSDPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDSDPUtils.h; sourceTree = "<group>"; };
+		DC00D45F1FD7D62600E20043 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Lib/include/WebRTC/WebRTC.framework; sourceTree = "<group>"; };
+		DC00D4631FD7E4A600E20043 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Lib/include/WebRTC/WebRTC.framework; sourceTree = "<group>"; };
+		DC00D4651FD7E4D100E20043 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Lib/include/WebRTC/WebRTC.framework; sourceTree = "<group>"; };
+		DC3EDE0B1FDB2A18005B5FCE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DC3EDE0C1FDB2A18005B5FCE /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		DC3EDE0D1FDB2A18005B5FCE /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		DC3EDE0F1FDB2A19005B5FCE /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		DC3EDE111FDB2A19005B5FCE /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		DC3EDE131FDB2A19005B5FCE /* AppRTCMobile-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppRTCMobile-Prefix.pch"; sourceTree = "<group>"; };
+		DC3EDE141FDB2A19005B5FCE /* ARDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDAppDelegate.h; sourceTree = "<group>"; };
+		DC3EDE151FDB2A19005B5FCE /* ARDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDAppDelegate.m; sourceTree = "<group>"; };
+		DC3EDE161FDB2A19005B5FCE /* ARDMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDMainView.h; sourceTree = "<group>"; };
+		DC3EDE171FDB2A19005B5FCE /* ARDMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDMainView.m; sourceTree = "<group>"; };
+		DC3EDE181FDB2A19005B5FCE /* ARDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDMainViewController.h; sourceTree = "<group>"; };
+		DC3EDE191FDB2A19005B5FCE /* ARDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDMainViewController.m; sourceTree = "<group>"; };
+		DC3EDE1A1FDB2A19005B5FCE /* ARDSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDSettingsViewController.h; sourceTree = "<group>"; };
+		DC3EDE1B1FDB2A19005B5FCE /* ARDSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDSettingsViewController.m; sourceTree = "<group>"; };
+		DC3EDE1C1FDB2A19005B5FCE /* ARDStatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDStatsView.h; sourceTree = "<group>"; };
+		DC3EDE1D1FDB2A19005B5FCE /* ARDStatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDStatsView.m; sourceTree = "<group>"; };
+		DC3EDE1E1FDB2A19005B5FCE /* ARDVideoCallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDVideoCallView.h; sourceTree = "<group>"; };
+		DC3EDE1F1FDB2A19005B5FCE /* ARDVideoCallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDVideoCallView.m; sourceTree = "<group>"; };
+		DC3EDE201FDB2A19005B5FCE /* ARDVideoCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDVideoCallViewController.h; sourceTree = "<group>"; };
+		DC3EDE211FDB2A19005B5FCE /* ARDVideoCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDVideoCallViewController.m; sourceTree = "<group>"; };
+		DC3EDE221FDB2A19005B5FCE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3EDE241FDB2A19005B5FCE /* ic_call_end_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_call_end_black_24dp.png; sourceTree = "<group>"; };
+		DC3EDE251FDB2A19005B5FCE /* ic_call_end_black_24dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_call_end_black_24dp@2x.png"; sourceTree = "<group>"; };
+		DC3EDE261FDB2A19005B5FCE /* ic_clear_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_clear_black_24dp.png; sourceTree = "<group>"; };
+		DC3EDE271FDB2A19005B5FCE /* ic_clear_black_24dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_clear_black_24dp@2x.png"; sourceTree = "<group>"; };
+		DC3EDE281FDB2A19005B5FCE /* ic_settings_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_settings_black_24dp.png; sourceTree = "<group>"; };
+		DC3EDE291FDB2A19005B5FCE /* ic_settings_black_24dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_settings_black_24dp@2x.png"; sourceTree = "<group>"; };
+		DC3EDE2A1FDB2A19005B5FCE /* ic_surround_sound_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_surround_sound_black_24dp.png; sourceTree = "<group>"; };
+		DC3EDE2B1FDB2A19005B5FCE /* ic_surround_sound_black_24dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_surround_sound_black_24dp@2x.png"; sourceTree = "<group>"; };
+		DC3EDE2C1FDB2A19005B5FCE /* ic_switch_video_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_switch_video_black_24dp.png; sourceTree = "<group>"; };
+		DC3EDE2D1FDB2A19005B5FCE /* ic_switch_video_black_24dp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_switch_video_black_24dp@2x.png"; sourceTree = "<group>"; };
+		DC3EDE2E1FDB2A19005B5FCE /* iPhone5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone5@2x.png"; sourceTree = "<group>"; };
+		DC3EDE2F1FDB2A19005B5FCE /* iPhone6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone6@2x.png"; sourceTree = "<group>"; };
+		DC3EDE301FDB2A19005B5FCE /* iPhone6p@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone6p@3x.png"; sourceTree = "<group>"; };
+		DC3EDE311FDB2A19005B5FCE /* mozart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mozart.mp3; sourceTree = "<group>"; };
+		DC3EDE321FDB2A19005B5FCE /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		DC3EDE331FDB2A19005B5FCE /* UIImage+ARDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ARDUtilities.h"; sourceTree = "<group>"; };
+		DC3EDE341FDB2A19005B5FCE /* UIImage+ARDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ARDUtilities.m"; sourceTree = "<group>"; };
+		DC3EDE361FDB2A19005B5FCE /* ARDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDUtilities.h; sourceTree = "<group>"; };
+		DC3EDE371FDB2A19005B5FCE /* ARDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDUtilities.m; sourceTree = "<group>"; };
+		DC3EDE571FDB2BD5005B5FCE /* ARDSDPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDSDPUtils.m; sourceTree = "<group>"; };
+		DC3EDE601FDB4334005B5FCE /* RTCRoomTextInputViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCRoomTextInputViewCell.swift; sourceTree = "<group>"; };
+		DC3EDE621FDB4344005B5FCE /* RTCVideoChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCVideoChatViewController.swift; sourceTree = "<group>"; };
+		DC3EDE631FDB4345005B5FCE /* RTCRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCRoomViewController.swift; sourceTree = "<group>"; };
+		DC3EDE661FDB4716005B5FCE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCC626641FDB695500D3A614 /* TreeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeAnnotation.swift; sourceTree = "<group>"; };
+		DCC626651FDB695500D3A614 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		DCC626661FDB695600D3A614 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		DCC626671FDB695600D3A614 /* PardeTreesFromCSVFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PardeTreesFromCSVFile.swift; sourceTree = "<group>"; };
+		DCC626681FDB695600D3A614 /* UserProfileAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileAnnotation.swift; sourceTree = "<group>"; };
+		DCC6266E1FDB697100D3A614 /* Trees.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Trees.csv; sourceTree = "<group>"; };
+		DCD5780B1FDB1E91006E1BFE /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		DCD5780D1FDB1F33006E1BFE /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = ../../../../../../../usr/lib/libicucore.A.dylib; sourceTree = "<group>"; };
+		DCD5780F1FDB1F76006E1BFE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		DCD578111FDB1FB8006E1BFE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD063DF1FBA3A8A0046851C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD578121FDB1FB8006E1BFE /* CoreMedia.framework in Frameworks */,
+				DCD578101FDB1F76006E1BFE /* libsqlite3.dylib in Frameworks */,
+				DCD5780E1FDB1F33006E1BFE /* libicucore.A.dylib in Frameworks */,
+				DC3EDE3A1FDB2A19005B5FCE /* WebRTC.framework in Frameworks */,
+				DCD5780C1FDB1E91006E1BFE /* libc++.1.dylib in Frameworks */,
+				DC00D4601FD7D62600E20043 /* WebRTC.framework in Frameworks */,
+				DC00D4141FD7D0F200E20043 /* AVFoundation.framework in Frameworks */,
+				DC00D4121FD7D0E900E20043 /* GLKit.framework in Frameworks */,
+				DC00D4101FD7D0D900E20043 /* CoreVideo.framework in Frameworks */,
+				DC00D40E1FD7D09900E20043 /* CoreImage.framework in Frameworks */,
+				DC00D40C1FD7D08E00E20043 /* CoreGraphics.framework in Frameworks */,
+				DC00D40A1FD7D06700E20043 /* AudioToolbox.framework in Frameworks */,
+				DC00D4081FD7D04E00E20043 /* VideoToolbox.framework in Frameworks */,
+				71C2837C74B8F1CED8688EF9 /* Pods_AskMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDE4C841FCF9E76001B6B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDE4C8D1FCF9E76001B6B22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDE4C921FCF9E76001B6B22 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD063D91FBA3A8A0046851C = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE661FDB4716005B5FCE /* Podfile */,
+				DC00D4631FD7E4A600E20043 /* WebRTC.framework */,
+				DC00D4651FD7E4D100E20043 /* WebRTC.framework */,
+				DC00D4151FD7D23900E20043 /* Lib */,
+				5C519EB01FCE7497003265AC /* mine.m */,
+				5CD063E41FBA3A8A0046851C /* AskMe */,
+				5CDE4C881FCF9E76001B6B22 /* AskMeChatIntent */,
+				5CDE4C931FCF9E76001B6B22 /* AskMeChatIntentUI */,
+				5CD063E31FBA3A8A0046851C /* Products */,
+				8F0B8559695558BE2D57F013 /* Pods */,
+				9FC19225172A044E71F5AF0F /* Frameworks */,
+				5C519EAF1FCE7496003265AC /* AskMe-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD063E31FBA3A8A0046851C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD063E21FBA3A8A0046851C /* AskMe.app */,
+				5CDE4C871FCF9E76001B6B22 /* AskMeChatIntent.appex */,
+				5CDE4C901FCF9E76001B6B22 /* AskMeChatIntentUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD063E41FBA3A8A0046851C /* AskMe */ = {
+			isa = PBXGroup;
+			children = (
+				5C519EB21FCE757E003265AC /* AskMe.entitlements */,
+				5CDAECDC1FC7F82700DE3753 /* GoogleService-Info.plist */,
+				5CD063FF1FBA3C290046851C /* Util */,
+				5CD063FE1FBA3C1C0046851C /* Model */,
+				5CD063FD1FBA3C120046851C /* Controller */,
+				5CD063FC1FBA3C000046851C /* View */,
+				5CD063E51FBA3A8A0046851C /* AppDelegate.swift */,
+				5CD063E91FBA3A8A0046851C /* Main.storyboard */,
+				5CD063EF1FBA3A8A0046851C /* Assets.xcassets */,
+				5CD063F11FBA3A8A0046851C /* LaunchScreen.storyboard */,
+				5CD063F41FBA3A8A0046851C /* Info.plist */,
+				5CD063EC1FBA3A8A0046851C /* AskMe.xcdatamodeld */,
+			);
+			path = AskMe;
+			sourceTree = "<group>";
+		};
+		5CD063FC1FBA3C000046851C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE601FDB4334005B5FCE /* RTCRoomTextInputViewCell.swift */,
+				5CD064021FBA3C730046851C /* CustomedView.swift */,
+				5CD064041FBA3C9E0046851C /* CustomedButton.swift */,
+				5C89E5331FC2886B00E7CC84 /* RadioButton.swift */,
+				5CDAECE61FC8A8F500DE3753 /* ProfileCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CD063FD1FBA3C120046851C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CD063E71FBA3A8A0046851C /* ViewController.swift */,
+				5C89E5351FC2895500E7CC84 /* ProfileViewController.swift */,
+				5CD064081FBAAD0F0046851C /* Searching.swift */,
+				5CDAECDE1FC7FE7300DE3753 /* Login.swift */,
+				5CDAECE81FC8AD6A00DE3753 /* Chat.swift */,
+				5CDE4CB71FD6289B001B6B22 /* Map.swift */,
+				DC3EDE631FDB4345005B5FCE /* RTCRoomViewController.swift */,
+				DC3EDE621FDB4344005B5FCE /* RTCVideoChatViewController.swift */,
+				5C015E341FDB854300E5BF27 /* MapView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CD063FE1FBA3C1C0046851C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCC626651FDB695500D3A614 /* CSV.swift */,
+				DCC626671FDB695600D3A614 /* PardeTreesFromCSVFile.swift */,
+				DCC626661FDB695600D3A614 /* Tree.swift */,
+				DCC626641FDB695500D3A614 /* TreeAnnotation.swift */,
+				DCC626681FDB695600D3A614 /* UserProfileAnnotation.swift */,
+				5CDAECE01FC8117B00DE3753 /* DBProvider.swift */,
+				5CDAECE41FC817ED00DE3753 /* Profile.swift */,
+				5C3D5F0B1FCB6D96002596DE /* AuthProvider.swift */,
+				5C3D5F0D1FCB9F29002596DE /* MessageHandler.swift */,
+				5CDE4CBA1FD62D92001B6B22 /* ProfileDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CD063FF1FBA3C290046851C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DCC6266E1FDB697100D3A614 /* Trees.csv */,
+				5CD064001FBA3C4C0046851C /* Constant.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5CDE4C881FCF9E76001B6B22 /* AskMeChatIntent */ = {
+			isa = PBXGroup;
+			children = (
+				5CDE4C891FCF9E76001B6B22 /* IntentHandler.swift */,
+				5CDE4C8B1FCF9E76001B6B22 /* Info.plist */,
+			);
+			path = AskMeChatIntent;
+			sourceTree = "<group>";
+		};
+		5CDE4C931FCF9E76001B6B22 /* AskMeChatIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				5CDE4C941FCF9E76001B6B22 /* IntentViewController.swift */,
+				5CDE4C961FCF9E76001B6B22 /* MainInterface.storyboard */,
+				5CDE4C991FCF9E76001B6B22 /* Info.plist */,
+			);
+			path = AskMeChatIntentUI;
+			sourceTree = "<group>";
+		};
+		8F0B8559695558BE2D57F013 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B55864B17B74DFCC41BA350D /* Pods-AskMe.debug.xcconfig */,
+				DAE34337AAD26D6605810AEB /* Pods-AskMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FC19225172A044E71F5AF0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCD578111FDB1FB8006E1BFE /* CoreMedia.framework */,
+				DCD5780F1FDB1F76006E1BFE /* libsqlite3.dylib */,
+				DCD5780D1FDB1F33006E1BFE /* libicucore.A.dylib */,
+				DCD5780B1FDB1E91006E1BFE /* libc++.1.dylib */,
+				DC00D45F1FD7D62600E20043 /* WebRTC.framework */,
+				DC00D4131FD7D0F200E20043 /* AVFoundation.framework */,
+				DC00D4111FD7D0E900E20043 /* GLKit.framework */,
+				DC00D40F1FD7D0D900E20043 /* CoreVideo.framework */,
+				DC00D40D1FD7D09900E20043 /* CoreImage.framework */,
+				DC00D4091FD7D06700E20043 /* AudioToolbox.framework */,
+				DC00D40B1FD7D08E00E20043 /* CoreGraphics.framework */,
+				DC00D4071FD7D04D00E20043 /* VideoToolbox.framework */,
+				B68471516D1DF5D968DC15F6 /* Pods_AskMe.framework */,
+				5CDE4C911FCF9E76001B6B22 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC00D4151FD7D23900E20043 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE351FDB2A19005B5FCE /* common */,
+				DC3EDE0E1FDB2A19005B5FCE /* include */,
+				DC3EDE121FDB2A19005B5FCE /* ios */,
+				DC3EDE091FDB2A18005B5FCE /* third_party */,
+				DC00D42F1FD7D33F00E20043 /* ARDAppClient.h */,
+				DC00D4261FD7D33F00E20043 /* ARDAppClient.m */,
+				DC00D4371FD7D34000E20043 /* ARDAppClient+Internal.h */,
+				DC00D43F1FD7D34100E20043 /* ARDAppEngineClient.h */,
+				DC00D42C1FD7D33F00E20043 /* ARDAppEngineClient.m */,
+				DC00D4201FD7D33E00E20043 /* ARDBitrateTracker.h */,
+				DC00D4211FD7D33E00E20043 /* ARDBitrateTracker.m */,
+				DC00D4361FD7D34000E20043 /* ARDCaptureController.h */,
+				DC00D4401FD7D34200E20043 /* ARDCaptureController.m */,
+				DC00D4341FD7D34000E20043 /* ARDJoinResponse.h */,
+				DC00D4451FD7D34200E20043 /* ARDJoinResponse.m */,
+				DC00D4221FD7D33E00E20043 /* ARDJoinResponse+Internal.h */,
+				DC00D41E1FD7D33E00E20043 /* ARDMessageResponse.h */,
+				DC00D41F1FD7D33E00E20043 /* ARDMessageResponse.m */,
+				DC00D4381FD7D34000E20043 /* ARDMessageResponse+Internal.h */,
+				DC00D4291FD7D33F00E20043 /* ARDRegisterResponse.h */,
+				DC00D4351FD7D34000E20043 /* ARDRegisterResponse.m */,
+				DC00D43D1FD7D34100E20043 /* ARDRoomServerClient.h */,
+				DC00D4471FD7D34300E20043 /* ARDSDPUtils.h */,
+				DC00D42B1FD7D33F00E20043 /* ARDSDPUtils.m */,
+				DC3EDE571FDB2BD5005B5FCE /* ARDSDPUtils.m */,
+				DC00D42E1FD7D33F00E20043 /* ARDSettingsModel.h */,
+				DC00D42D1FD7D33F00E20043 /* ARDSettingsModel.m */,
+				DC00D4281FD7D33F00E20043 /* ARDSettingsModel+Private.h */,
+				DC00D4191FD7D33E00E20043 /* ARDSettingsStore.h */,
+				DC00D43E1FD7D34100E20043 /* ARDSettingsStore.m */,
+				DC00D4391FD7D34100E20043 /* ARDSignalingChannel.h */,
+				DC00D41A1FD7D33E00E20043 /* ARDSignalingMessage.h */,
+				DC00D4251FD7D33E00E20043 /* ARDSignalingMessage.m */,
+				DC00D4301FD7D33F00E20043 /* ARDStatsBuilder.h */,
+				DC00D4421FD7D34200E20043 /* ARDStatsBuilder.m */,
+				DC00D4311FD7D34000E20043 /* ARDTURNClient.h */,
+				DC00D4271FD7D33F00E20043 /* ARDTURNClient.m */,
+				DC00D4411FD7D34200E20043 /* ARDTURNClient+Internal.h */,
+				DC00D4431FD7D34200E20043 /* ARDWebSocketChannel.h */,
+				DC00D41C1FD7D33E00E20043 /* ARDWebSocketChannel.m */,
+				DC00D43A1FD7D34100E20043 /* RTCICECandidate+JSON.h */,
+				DC00D41D1FD7D33E00E20043 /* RTCICECandidate+JSON.m */,
+				DC00D43B1FD7D34100E20043 /* RTCICEServer+JSON.h */,
+				DC00D4231FD7D33E00E20043 /* RTCICEServer+JSON.m */,
+				DC00D4241FD7D33E00E20043 /* RTCMediaConstraints+JSON.h */,
+				DC00D43C1FD7D34100E20043 /* RTCMediaConstraints+JSON.m */,
+				DC00D4441FD7D34200E20043 /* RTCSessionDescription+JSON.h */,
+				DC00D41B1FD7D33E00E20043 /* RTCSessionDescription+JSON.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DC3EDE091FDB2A18005B5FCE /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE0A1FDB2A18005B5FCE /* SocketRocket */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		DC3EDE0A1FDB2A18005B5FCE /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE0B1FDB2A18005B5FCE /* LICENSE */,
+				DC3EDE0C1FDB2A18005B5FCE /* SRWebSocket.h */,
+				DC3EDE0D1FDB2A18005B5FCE /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		DC3EDE0E1FDB2A19005B5FCE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE0F1FDB2A19005B5FCE /* SRWebSocket.h */,
+				DC3EDE101FDB2A19005B5FCE /* WebRTC */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DC3EDE101FDB2A19005B5FCE /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE111FDB2A19005B5FCE /* WebRTC.framework */,
+			);
+			path = WebRTC;
+			sourceTree = "<group>";
+		};
+		DC3EDE121FDB2A19005B5FCE /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE131FDB2A19005B5FCE /* AppRTCMobile-Prefix.pch */,
+				DC3EDE141FDB2A19005B5FCE /* ARDAppDelegate.h */,
+				DC3EDE151FDB2A19005B5FCE /* ARDAppDelegate.m */,
+				DC3EDE161FDB2A19005B5FCE /* ARDMainView.h */,
+				DC3EDE171FDB2A19005B5FCE /* ARDMainView.m */,
+				DC3EDE181FDB2A19005B5FCE /* ARDMainViewController.h */,
+				DC3EDE191FDB2A19005B5FCE /* ARDMainViewController.m */,
+				DC3EDE1A1FDB2A19005B5FCE /* ARDSettingsViewController.h */,
+				DC3EDE1B1FDB2A19005B5FCE /* ARDSettingsViewController.m */,
+				DC3EDE1C1FDB2A19005B5FCE /* ARDStatsView.h */,
+				DC3EDE1D1FDB2A19005B5FCE /* ARDStatsView.m */,
+				DC3EDE1E1FDB2A19005B5FCE /* ARDVideoCallView.h */,
+				DC3EDE1F1FDB2A19005B5FCE /* ARDVideoCallView.m */,
+				DC3EDE201FDB2A19005B5FCE /* ARDVideoCallViewController.h */,
+				DC3EDE211FDB2A19005B5FCE /* ARDVideoCallViewController.m */,
+				DC3EDE221FDB2A19005B5FCE /* Info.plist */,
+				DC3EDE231FDB2A19005B5FCE /* resources */,
+				DC3EDE331FDB2A19005B5FCE /* UIImage+ARDUtilities.h */,
+				DC3EDE341FDB2A19005B5FCE /* UIImage+ARDUtilities.m */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		DC3EDE231FDB2A19005B5FCE /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE241FDB2A19005B5FCE /* ic_call_end_black_24dp.png */,
+				DC3EDE251FDB2A19005B5FCE /* ic_call_end_black_24dp@2x.png */,
+				DC3EDE261FDB2A19005B5FCE /* ic_clear_black_24dp.png */,
+				DC3EDE271FDB2A19005B5FCE /* ic_clear_black_24dp@2x.png */,
+				DC3EDE281FDB2A19005B5FCE /* ic_settings_black_24dp.png */,
+				DC3EDE291FDB2A19005B5FCE /* ic_settings_black_24dp@2x.png */,
+				DC3EDE2A1FDB2A19005B5FCE /* ic_surround_sound_black_24dp.png */,
+				DC3EDE2B1FDB2A19005B5FCE /* ic_surround_sound_black_24dp@2x.png */,
+				DC3EDE2C1FDB2A19005B5FCE /* ic_switch_video_black_24dp.png */,
+				DC3EDE2D1FDB2A19005B5FCE /* ic_switch_video_black_24dp@2x.png */,
+				DC3EDE2E1FDB2A19005B5FCE /* iPhone5@2x.png */,
+				DC3EDE2F1FDB2A19005B5FCE /* iPhone6@2x.png */,
+				DC3EDE301FDB2A19005B5FCE /* iPhone6p@3x.png */,
+				DC3EDE311FDB2A19005B5FCE /* mozart.mp3 */,
+				DC3EDE321FDB2A19005B5FCE /* Roboto-Regular.ttf */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		DC3EDE351FDB2A19005B5FCE /* common */ = {
+			isa = PBXGroup;
+			children = (
+				DC3EDE361FDB2A19005B5FCE /* ARDUtilities.h */,
+				DC3EDE371FDB2A19005B5FCE /* ARDUtilities.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD063E11FBA3A8A0046851C /* AskMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD063F71FBA3A8A0046851C /* Build configuration list for PBXNativeTarget "AskMe" */;
+			buildPhases = (
+				20E47C67815EC3E821BDC71F /* [CP] Check Pods Manifest.lock */,
+				5CD063DE1FBA3A8A0046851C /* Sources */,
+				5CD063DF1FBA3A8A0046851C /* Frameworks */,
+				5CD063E01FBA3A8A0046851C /* Resources */,
+				236ABF0B4E3BC73050391186 /* [CP] Embed Pods Frameworks */,
+				F795B373E352C4176AACB4ED /* [CP] Copy Pods Resources */,
+				5CDAEC4E1FC5FDAB00DE3753 /* Embed Frameworks */,
+				5CDE4CA61FCF9E76001B6B22 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDE4C9B1FCF9E76001B6B22 /* PBXTargetDependency */,
+				5CDE4C9E1FCF9E76001B6B22 /* PBXTargetDependency */,
+			);
+			name = AskMe;
+			productName = AskMe;
+			productReference = 5CD063E21FBA3A8A0046851C /* AskMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CDE4C861FCF9E76001B6B22 /* AskMeChatIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDE4CA51FCF9E76001B6B22 /* Build configuration list for PBXNativeTarget "AskMeChatIntent" */;
+			buildPhases = (
+				5CDE4C831FCF9E76001B6B22 /* Sources */,
+				5CDE4C841FCF9E76001B6B22 /* Frameworks */,
+				5CDE4C851FCF9E76001B6B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AskMeChatIntent;
+			productName = AskMeChatIntent;
+			productReference = 5CDE4C871FCF9E76001B6B22 /* AskMeChatIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5CDE4C8F1FCF9E76001B6B22 /* AskMeChatIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDE4CA41FCF9E76001B6B22 /* Build configuration list for PBXNativeTarget "AskMeChatIntentUI" */;
+			buildPhases = (
+				5CDE4C8C1FCF9E76001B6B22 /* Sources */,
+				5CDE4C8D1FCF9E76001B6B22 /* Frameworks */,
+				5CDE4C8E1FCF9E76001B6B22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AskMeChatIntentUI;
+			productName = AskMeChatIntentUI;
+			productReference = 5CDE4C901FCF9E76001B6B22 /* AskMeChatIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD063DA1FBA3A8A0046851C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Maryam Jafari";
+				TargetAttributes = {
+					5CD063E11FBA3A8A0046851C = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					5CDE4C861FCF9E76001B6B22 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5CDE4C8F1FCF9E76001B6B22 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5CD063DD1FBA3A8A0046851C /* Build configuration list for PBXProject "AskMe" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CD063D91FBA3A8A0046851C;
+			productRefGroup = 5CD063E31FBA3A8A0046851C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD063E11FBA3A8A0046851C /* AskMe */,
+				5CDE4C861FCF9E76001B6B22 /* AskMeChatIntent */,
+				5CDE4C8F1FCF9E76001B6B22 /* AskMeChatIntentUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD063E01FBA3A8A0046851C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3EDE451FDB2A19005B5FCE /* ic_clear_black_24dp.png in Resources */,
+				DC3EDE441FDB2A19005B5FCE /* ic_call_end_black_24dp@2x.png in Resources */,
+				DC3EDE511FDB2A19005B5FCE /* Roboto-Regular.ttf in Resources */,
+				DC3EDE4E1FDB2A19005B5FCE /* iPhone6@2x.png in Resources */,
+				5CDAECDD1FC7F82700DE3753 /* GoogleService-Info.plist in Resources */,
+				DC3EDE4D1FDB2A19005B5FCE /* iPhone5@2x.png in Resources */,
+				DC3EDE501FDB2A19005B5FCE /* mozart.mp3 in Resources */,
+				DC3EDE491FDB2A19005B5FCE /* ic_surround_sound_black_24dp.png in Resources */,
+				DC3EDE431FDB2A19005B5FCE /* ic_call_end_black_24dp.png in Resources */,
+				5CD063F31FBA3A8A0046851C /* LaunchScreen.storyboard in Resources */,
+				DC3EDE671FDB4717005B5FCE /* Podfile in Resources */,
+				5CD063F01FBA3A8A0046851C /* Assets.xcassets in Resources */,
+				DC3EDE381FDB2A19005B5FCE /* LICENSE in Resources */,
+				DC3EDE471FDB2A19005B5FCE /* ic_settings_black_24dp.png in Resources */,
+				DC3EDE4B1FDB2A19005B5FCE /* ic_switch_video_black_24dp.png in Resources */,
+				DC3EDE481FDB2A19005B5FCE /* ic_settings_black_24dp@2x.png in Resources */,
+				DC3EDE4C1FDB2A19005B5FCE /* ic_switch_video_black_24dp@2x.png in Resources */,
+				DC3EDE4A1FDB2A19005B5FCE /* ic_surround_sound_black_24dp@2x.png in Resources */,
+				DCC6266F1FDB697100D3A614 /* Trees.csv in Resources */,
+				DC3EDE421FDB2A19005B5FCE /* Info.plist in Resources */,
+				DC3EDE4F1FDB2A19005B5FCE /* iPhone6p@3x.png in Resources */,
+				DC3EDE461FDB2A19005B5FCE /* ic_clear_black_24dp@2x.png in Resources */,
+				5CD063EB1FBA3A8A0046851C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDE4C851FCF9E76001B6B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDE4C8E1FCF9E76001B6B22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDE4C981FCF9E76001B6B22 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20E47C67815EC3E821BDC71F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AskMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		236ABF0B4E3BC73050391186 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AskMe/Pods-AskMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GeoFire/GeoFire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/SCRecorder/SCRecorder.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GeoFire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCRecorder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskMe/Pods-AskMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F795B373E352C4176AACB4ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AskMe/Pods-AskMe-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskMe/Pods-AskMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD063DE1FBA3A8A0046851C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC00D44F1FD7D34300E20043 /* ARDSignalingMessage.m in Sources */,
+				DC00D4501FD7D34300E20043 /* ARDAppClient.m in Sources */,
+				DC00D4511FD7D34300E20043 /* ARDTURNClient.m in Sources */,
+				DC3EDE3C1FDB2A19005B5FCE /* ARDMainView.m in Sources */,
+				DC00D45D1FD7D34300E20043 /* ARDJoinResponse.m in Sources */,
+				DC3EDE3F1FDB2A19005B5FCE /* ARDStatsView.m in Sources */,
+				DC3EDE531FDB2A19005B5FCE /* ARDUtilities.m in Sources */,
+				DC3EDE411FDB2A19005B5FCE /* ARDVideoCallViewController.m in Sources */,
+				DC00D44B1FD7D34300E20043 /* RTCICECandidate+JSON.m in Sources */,
+				DC00D44E1FD7D34300E20043 /* RTCICEServer+JSON.m in Sources */,
+				DC00D44A1FD7D34300E20043 /* ARDWebSocketChannel.m in Sources */,
+				DC00D4551FD7D34300E20043 /* ARDSettingsModel.m in Sources */,
+				DC3EDE541FDB2B5B005B5FCE /* ARDSettingsStore.m in Sources */,
+				DC3EDE3D1FDB2A19005B5FCE /* ARDMainViewController.m in Sources */,
+				DC3EDE3E1FDB2A19005B5FCE /* ARDSettingsViewController.m in Sources */,
+				DC3EDE551FDB2B9E005B5FCE /* ARDBitrateTracker.m in Sources */,
+				DC3EDE651FDB4345005B5FCE /* RTCRoomViewController.swift in Sources */,
+				DC3EDE611FDB4334005B5FCE /* RTCRoomTextInputViewCell.swift in Sources */,
+				DC3EDE401FDB2A19005B5FCE /* ARDVideoCallView.m in Sources */,
+				DC3EDE561FDB2BC9005B5FCE /* ARDSDPUtils.m in Sources */,
+				DC3EDE591FDB2C0C005B5FCE /* ARDCaptureController.m in Sources */,
+				DCC6266C1FDB695600D3A614 /* PardeTreesFromCSVFile.swift in Sources */,
+				DC3EDE5A1FDB2C34005B5FCE /* RTCSessionDescription+JSON.m in Sources */,
+				DC3EDE5B1FDB2C4F005B5FCE /* ARDRegisterResponse.m in Sources */,
+				DC3EDE5C1FDB2C7D005B5FCE /* ARDAppEngineClient.m in Sources */,
+				DC3EDE5D1FDB2CA6005B5FCE /* ARDStatsBuilder.m in Sources */,
+				DC3EDE5E1FDB2CB4005B5FCE /* ARDMessageResponse.m in Sources */,
+				DC3EDE521FDB2A19005B5FCE /* UIImage+ARDUtilities.m in Sources */,
+				DC3EDE3B1FDB2A19005B5FCE /* ARDAppDelegate.m in Sources */,
+				DC3EDE391FDB2A19005B5FCE /* SRWebSocket.m in Sources */,
+				DC3EDE5F1FDB2CFF005B5FCE /* RTCMediaConstraints+JSON.m in Sources */,
+				5CD063EE1FBA3A8A0046851C /* AskMe.xcdatamodeld in Sources */,
+				5CDAECDF1FC7FE7300DE3753 /* Login.swift in Sources */,
+				5C3D5F0E1FCB9F29002596DE /* MessageHandler.swift in Sources */,
+				DC3EDE641FDB4345005B5FCE /* RTCVideoChatViewController.swift in Sources */,
+				5CD063E81FBA3A8A0046851C /* ViewController.swift in Sources */,
+				5CDAECE51FC817ED00DE3753 /* Profile.swift in Sources */,
+				5CD064031FBA3C730046851C /* CustomedView.swift in Sources */,
+				5CD063E61FBA3A8A0046851C /* AppDelegate.swift in Sources */,
+				5C519EB11FCE7497003265AC /* mine.m in Sources */,
+				DCC6266D1FDB695600D3A614 /* UserProfileAnnotation.swift in Sources */,
+				5CD064091FBAAD0F0046851C /* Searching.swift in Sources */,
+				5CD064011FBA3C4C0046851C /* Constant.swift in Sources */,
+				5CDAECE11FC8117B00DE3753 /* DBProvider.swift in Sources */,
+				5CDE4CBB1FD62D92001B6B22 /* ProfileDetail.swift in Sources */,
+				DCC626691FDB695600D3A614 /* TreeAnnotation.swift in Sources */,
+				DCC6266A1FDB695600D3A614 /* CSV.swift in Sources */,
+				5C89E5361FC2895500E7CC84 /* ProfileViewController.swift in Sources */,
+				5CD064051FBA3C9E0046851C /* CustomedButton.swift in Sources */,
+				5C015E351FDB854300E5BF27 /* MapView.swift in Sources */,
+				5C89E5341FC2886B00E7CC84 /* RadioButton.swift in Sources */,
+				5C3D5F0C1FCB6D96002596DE /* AuthProvider.swift in Sources */,
+				DCC6266B1FDB695600D3A614 /* Tree.swift in Sources */,
+				5CDAECE91FC8AD6A00DE3753 /* Chat.swift in Sources */,
+				5CDE4CB81FD6289B001B6B22 /* Map.swift in Sources */,
+				5CDAECE71FC8A8F500DE3753 /* ProfileCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDE4C831FCF9E76001B6B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDE4C8A1FCF9E76001B6B22 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDE4C8C1FCF9E76001B6B22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDE4C951FCF9E76001B6B22 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CDE4C9B1FCF9E76001B6B22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDE4C8F1FCF9E76001B6B22 /* AskMeChatIntentUI */;
+			targetProxy = 5CDE4C9A1FCF9E76001B6B22 /* PBXContainerItemProxy */;
+		};
+		5CDE4C9E1FCF9E76001B6B22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDE4C861FCF9E76001B6B22 /* AskMeChatIntent */;
+			targetProxy = 5CDE4C9D1FCF9E76001B6B22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CD063E91FBA3A8A0046851C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD063EA1FBA3A8A0046851C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CD063F11FBA3A8A0046851C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD063F21FBA3A8A0046851C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5CDE4C961FCF9E76001B6B22 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDE4C971FCF9E76001B6B22 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CD063F51FBA3A8A0046851C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CD063F61FBA3A8A0046851C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD063F81FBA3A8A0046851C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55864B17B74DFCC41BA350D /* Pods-AskMe.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AskMe/AskMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF5CTWS5JD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Lib/include/WebRTC",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"\"${PODS_ROOT}/leveldb-library\"",
+					"\"${PODS_ROOT}/leveldb-library/include\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleSignIn\"",
+				);
+				INFOPLIST_FILE = AskMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = maryam.AskMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AskMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CD063F91FBA3A8A0046851C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE34337AAD26D6605810AEB /* Pods-AskMe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AskMe/AskMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF5CTWS5JD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Lib/include/WebRTC",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"\"${PODS_ROOT}/leveldb-library\"",
+					"\"${PODS_ROOT}/leveldb-library/include\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleSignIn\"",
+				);
+				INFOPLIST_FILE = AskMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lib",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = maryam.AskMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AskMe-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CDE4CA01FCF9E76001B6B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF5CTWS5JD;
+				INFOPLIST_FILE = AskMeChatIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maryam.AskMe.AskMeChatIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CDE4CA11FCF9E76001B6B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF5CTWS5JD;
+				INFOPLIST_FILE = AskMeChatIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maryam.AskMe.AskMeChatIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CDE4CA21FCF9E76001B6B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF5CTWS5JD;
+				INFOPLIST_FILE = AskMeChatIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maryam.AskMe.AskMeChatIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CDE4CA31FCF9E76001B6B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF5CTWS5JD;
+				INFOPLIST_FILE = AskMeChatIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maryam.AskMe.AskMeChatIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD063DD1FBA3A8A0046851C /* Build configuration list for PBXProject "AskMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD063F51FBA3A8A0046851C /* Debug */,
+				5CD063F61FBA3A8A0046851C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD063F71FBA3A8A0046851C /* Build configuration list for PBXNativeTarget "AskMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD063F81FBA3A8A0046851C /* Debug */,
+				5CD063F91FBA3A8A0046851C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDE4CA41FCF9E76001B6B22 /* Build configuration list for PBXNativeTarget "AskMeChatIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDE4CA21FCF9E76001B6B22 /* Debug */,
+				5CDE4CA31FCF9E76001B6B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDE4CA51FCF9E76001B6B22 /* Build configuration list for PBXNativeTarget "AskMeChatIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDE4CA01FCF9E76001B6B22 /* Debug */,
+				5CDE4CA11FCF9E76001B6B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5CD063EC1FBA3A8A0046851C /* AskMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5CD063ED1FBA3A8A0046851C /* AskMe.xcdatamodel */,
+			);
+			currentVersion = 5CD063ED1FBA3A8A0046851C /* AskMe.xcdatamodel */;
+			path = AskMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5CD063DA1FBA3A8A0046851C /* Project object */;
+}

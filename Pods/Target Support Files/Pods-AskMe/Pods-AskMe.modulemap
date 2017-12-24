@@ -1,0 +1,6 @@
+framework module Pods_AskMe {
+  umbrella header "Pods-AskMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
